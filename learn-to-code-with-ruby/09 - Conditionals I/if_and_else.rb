@@ -1,19 +1,21 @@
-color = "Green"
+grade = "C"
 
-if color == "Red"
-    puts "Red is rad"
-elsif color == "Green"
-    puts "Green is great"
-elsif color == "Yello"
-    puts "Yay for yellow"
+if grade == "A"
+    puts "That's an excellent grade. Good job!"
+elsif grade == "B"
+    puts "That's a good grade. Let's bring it up next time!"
+else
+    puts "Unacceptable!"
 end
 
-number = 55
-
-if number < 25
-    puts "That's a low number!"
-elsif number < 50
-    puts "That's a number in the middle!"
-elsif number < 75
-    puts "That's a big number"
+def odd_or_even(number)
+    if number.odd?
+        puts "That number is odd"
+    else
+        puts "That number is even"
+    end
 end
+
+odd_or_even(5)
+odd_or_even(10)
+odd_or_even(999_999)
