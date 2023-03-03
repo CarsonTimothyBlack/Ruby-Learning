@@ -15,3 +15,5 @@ p fruits[-100]
 puts fruits.[](0)
 puts fruits.[](-1)
 p fruits.[](-15)
+
+p fruits[fruits.length - 1]
